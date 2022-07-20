@@ -28,7 +28,7 @@ $(IP_BUILD_DIR)/xge_pcs_pma_ex/imports/gtwizard_ultrascale_v1_7_gtye4_common.v \
 # Describe the paths for the patch file, the file to be patched, and the
 # patched copy of the file.
 IP_XGE_FILE_PATCH = $(IP_DIR)/xge_pcs_pma/xge_pcs_pma_wrapper.v.patch
-IP_XGE_FILE_TO_PATCH = $(IP_BUILD_DIR)/xge_pcs_pma/xxv_ethernet_v3_0_1/xge_pcs_pma_wrapper.v
+IP_XGE_FILE_TO_PATCH = $(IP_BUILD_DIR)/xge_pcs_pma/xxv_ethernet_v3_0_3/xge_pcs_pma_wrapper.v
 IP_XGE_PATCHED_FILE = $(IP_BUILD_DIR)/xge_pcs_pma_wrapper.v.patched
 
 IP_XGE_PCS_PMA_SRCS = $(IP_BUILD_DIR)/xge_pcs_pma/xge_pcs_pma.xci $(IP_XGE_PATCHED_FILE)
